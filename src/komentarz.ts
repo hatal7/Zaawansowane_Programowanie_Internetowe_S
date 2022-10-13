@@ -7,5 +7,5 @@ class Komentarz {
     public set tresc(value:string){this._tresc=value;}
     constructor(tresc:string, nick:string) {}
     dodajOdpowiedz(odpowiedz:Komentarz):void{}
-    pobierzOdpowiedzi():Komentarz[]
+    //pobierzOdpowiedzi():Komentarz[]
 }
