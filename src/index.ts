@@ -44,4 +44,4 @@ function print(obj: Person) {
     
 print(person)
 print({ lastName: "Kot2", firstName:"Ala2", age: 21});
-
+//
