@@ -1,9 +1,18 @@
 {
     "compilerOptions": {
+        "experimentalDecorators": true,
         "rootDir": "src",
         "outDir": "build",
         "target": "ES2020",
         "moduleResolution": "node",
-        "strictNullChecks": true
-    }
+        "strictNullChecks": true,
+        "outFile": "index.ts"
+    },
+    "files":[
+        "article.ts",
+        "author.ts",
+        "blog.ts",
+        "comment.ts",
+        "index.ts"
+    ]
 }
