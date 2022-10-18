@@ -1,7 +1,7 @@
-class Comment {
+class ArticleComment {
   private _content: string;
   private _date: Date;
-  private _replies: Comment[];
+  private _replies: ArticleComment[];
   private _nick: string;
 
   constructor(content: string, nick: string) {
@@ -29,7 +29,7 @@ class Comment {
   }
 
   public addReply(): void {}
-  public getReplies(): Comment[] {
+  public getReplies(): ArticleComment[] {
     return [];
   }
 }
